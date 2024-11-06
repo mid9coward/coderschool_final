@@ -57,6 +57,8 @@ const RegisterModal = (props: Props) => {
     loginModal.onOpen();
   }, [registerModal, loginModal]);
 
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
   const bodyContent = (
     <div className="flex flex-col gap-4">
       <Heading title="Welcome to Airbnb" subtitle="Create an account!" />
@@ -67,6 +69,8 @@ const RegisterModal = (props: Props) => {
         register={register}
         errors={errors}
         required
+        type="email"
+        {...register("email", { pattern: emailPattern })}
       />
       <Input
         id="name"

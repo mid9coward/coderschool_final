@@ -11,8 +11,8 @@ import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SearchModal";
 
 export const metadata = {
-  title: "Airbnb Clone",
-  description: "Airbnb clone by RiP3rQ using Code with Antonio tutorial",
+  title: "Airbnb",
+  description: "Airbnb Clone",
 };
 
 const font = Nunito({
