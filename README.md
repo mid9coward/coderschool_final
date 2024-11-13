@@ -291,7 +291,7 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 ## :handshake: Contact
 
-Sashen - [@linkedin_handle](https://www.linkedin.com/in/hieu-vu-fool) - hieuvu0422@gmail.com
+Hieu Vu - [@linkedin_handle](https://www.linkedin.com/in/hieu-vu-fool) - hieuvu0422@gmail.com
 
 Project Link: [https://github.com/mid9coward/coderschool_final](https://github.com/mid9coward/coderschool_final.git)
 
