@@ -332,7 +332,7 @@ Project Link: [https://github.com/mid9coward/coderschool_final](https://github.c
 <br />
 
 <div align="center">
-<a href="https://coderschool-final.vercel.app/"><img  src='https://user-images.githubusercontent.com/99184393/229773559-72e7f64a-361d-4285-976a-00a8919dd783.png' alt='image'/></a>
+<a href="https://coderschool-final.vercel.app/"><img  src='public/images/screenshot_1731399352.png' alt='image'/></a>
 </div>
 
 <br />
