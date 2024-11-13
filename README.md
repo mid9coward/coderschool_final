@@ -48,6 +48,40 @@ Full Stack Airbnb Clone with Next.js Tailwind-css, Prisma, MongoDB, NextAuth, Fr
 
 ## :star2: About the Project
 
+Welcome to our **Airbnb Clone** project! In this tutorial, we’ll be building a high-performance, full-stack application using some of the latest web technologies and Next.js's App Directory. This project features a sleek, responsive design and is optimized for speed, creating an Airbnb-like experience with smooth navigation and fast load times. Here’s what we’ll be implementing:
+
+### Core Technologies
+
+- **Next.js App Directory**: For highly optimized routing and server components.
+- **Prisma** & **MongoDB**: To set up and manage a robust, scalable database.
+- **React** (Client Components): For building a dynamic, interactive UI.
+- **Tailwind CSS**: To create a modern, animated, and responsive design.
+
+### Key Features
+
+- **Server Components**: Fetch data directly from the database, enhancing speed and efficiency.
+- **Client Components**: Ensure a responsive, intuitive user interface.
+- **Responsive Design**: Fully responsive layout from desktop to mobile, with animations and effects.
+- **User Authentication**: Enable secure logins with credential-based, Azure, Google, and GitHub authentication.
+- **Image & File Management**: Use **Cloudinary CDN** for efficient image uploads.
+- **Form Handling**: Utilize **React Hook Form** for seamless client-side validation and form management.
+- **Error Handling & Feedback**: **React Toast** for server error notifications.
+- **Booking & Reservation System**: Full support for reservations, including cancellation by guests or owners.
+
+### Advanced Functionalities
+
+- **Advanced Search & Filters**: Filter properties by category, date range, location, guest capacity, rooms, and amenities.
+- **Favorites & Shareable URLs**: Users can mark favorite properties, and share filters and searches via URL.
+- **Dynamic Pricing**: Implement advanced calculations for pricing based on selected options.
+- **Interactive Calendar**: Integrated **React Date Range** for a user-friendly booking experience.
+- **Property Management**: Options for property creation, updating, and deletion.
+
+### Deployment
+
+In the end, we’ll deploy this application on **Vercel**, making it accessible and production-ready.
+
+Let’s dive in and start building a cutting-edge Airbnb clone that’s both functional and beautiful!
+
 <!-- Screenshots -->
 
 ### :camera: Screenshots
