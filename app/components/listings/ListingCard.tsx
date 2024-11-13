@@ -1,5 +1,4 @@
 "use client";
-
 import useCountries from "@/app/hooks/useCountry";
 import { SafeListing, SafeUser } from "@/app/types";
 import { Reservation } from "@prisma/client";
@@ -66,6 +65,9 @@ const ListingCard: FC<Props> = ({
     return `${format(start, "PP")} - ${format(end, "PP")}`;
   }, [reservation]);
 
+  // Default image URL in case no image is provided
+  const defaultImageUrl = "/images/logo.png"; // Change to your default image path
+
   return (
     <div
       onClick={() => router.push(`/listings/${data.id}`)}
@@ -76,7 +78,7 @@ const ListingCard: FC<Props> = ({
           <Image
             fill
             className="object-cover h-full w-full group-hover:scale-110 transition"
-            src={data.imageSrc}
+            src={data.imageSrc || defaultImageUrl} // Use the default image if no imageSrc
             alt="Listing"
           />
           <div className="absolute top-3 right-3">

@@ -69,7 +69,7 @@ const RentModal = (props: Props) => {
       dynamic(() => import("../Map"), {
         ssr: false,
       }),
-    []
+    [location]
   );
 
   // set custom value for react-hook-form

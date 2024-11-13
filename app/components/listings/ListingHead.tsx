@@ -1,5 +1,7 @@
 "use client";
 
+"use client";
+
 import useCountries from "@/app/hooks/useCountry";
 import { SafeUser } from "@/app/types";
 import React, { FC } from "react";
@@ -25,6 +27,9 @@ const ListingHead: FC<Props> = ({
   const { getByValue } = useCountries();
   const location = getByValue(locationValue);
 
+  // Default image URL in case no imageSrc is provided
+  const defaultImageUrl = "/images/logo.png"; // Adjust this to your default image path
+
   return (
     <>
       <Heading
@@ -33,7 +38,7 @@ const ListingHead: FC<Props> = ({
       />
       <div className="w-full h-[60vh] overflow-hidden rounded-xl relative">
         <Image
-          src={imageSrc}
+          src={imageSrc || defaultImageUrl} // Use default image if no imageSrc is provided
           fill
           className="object-cover w-full"
           alt="Image"
