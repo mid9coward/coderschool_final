@@ -5,7 +5,7 @@
 # Airbnb Clone with Next.js!
   
   <p>
-Full Stack Airbnb Clone with Next.js Tailwind-css, Prisma, MongoDB, NextAuth, Framer-motionSocial, Login (Google and Github), Image upload, Cloudinary CDN, Location selection, Map component, Country autocomplete, Fetching listings with server components.
+Full Stack Airbnb Clone with Next.js Tailwind-css, Prisma, MongoDB, NextAuth, Framer-motion, Social Login (Google and Github), Image upload, Cloudinary CDN, Location selection, Map component, Country autocomplete, Fetching listings with server components.
   </p>
   
 <!-- Badges -->
@@ -48,7 +48,7 @@ Full Stack Airbnb Clone with Next.js Tailwind-css, Prisma, MongoDB, NextAuth, Fr
 
 ## :star2: About the Project
 
-Welcome to our **Airbnb Clone** project! In this tutorial, we’ll be building a high-performance, full-stack application using some of the latest web technologies and Next.js's App Directory. This project features a sleek, responsive design and is optimized for speed, creating an Airbnb-like experience with smooth navigation and fast load times. Here’s what we’ll be implementing:
+Welcome to our **Airbnb Clone** project! We’ll be building a high-performance, full-stack application using some of the latest web technologies and Next.js's App Directory. This project features a sleek, responsive design and is optimized for speed, creating an Airbnb-like experience with smooth navigation and fast load times. Here’s what we’ll be implementing:
 
 ### Core Technologies
 
