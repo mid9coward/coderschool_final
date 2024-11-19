@@ -76,7 +76,7 @@ const ListingClient: FC<Props> = ({
         router.push("/trips");
       })
       .catch(() => {
-        toast.error("Something went wrong.");
+        toast.error("Owners can't reserve their listings.");
       })
       .finally(() => {
         setIsLoading(false);
